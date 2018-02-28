@@ -24,5 +24,9 @@ bash-3.2$ echo $foo
 Hello, World
 bash-3.2$ echo $bar
 
-bash-3.2$
+bash-3.2
 == Source
+mengembalikan atau menjalankan kembali file yang telah kita edit
+
+$gedit ~./zshrc
+$ource ~./zshrc
