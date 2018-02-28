@@ -1,0 +1,28 @@
+= Unix and Linux
+
+
+== Set
+
+Set untuk menetapkan variable
+$ set a b c
+$ echo $1
+a
+$ echo $2
+b
+$ echo $3
+c
+
+== Export
+Export membuat variable menjadi tersedia untuk global
+al$ foo="Hello, World"
+al$ echo $foo
+Hello, World
+al$ bar="Goodbye"
+al$ export foo
+al$ bash
+bash-3.2$ echo $foo
+Hello, World
+bash-3.2$ echo $bar
+
+bash-3.2$
+== Source
